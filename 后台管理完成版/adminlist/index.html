@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <link rel="icon" href="http://h.thexxdd.cn/face/favicon_1.ico" type="image/x-icon">
+    <title>美团商家后台</title>
+    <!-- 即时通讯 -->
+    <script type="text/javascript" src="https://cdn.goeasy.io/goeasy-1.0.3.js"></script>
+    <style type="text/css">
+    ::-webkit-scrollbar {
+      /*滚动条整体样式*/
+      width : 10px;  /*高宽分别对应横竖滚动条的尺寸*/
+      height: 1px;
+      }
+      ::-webkit-scrollbar-thumb {
+      /*滚动条里面小方块*/
+      border-radius: 10px;
+      box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.2);
+      background   : #25A4BB;
+      }
+      ::-webkit-scrollbar-track {
+      /*滚动条里面轨道*/
+      box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      background   : #DCDFE6;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+  <script type="text/javascript">
+  	history.pushState(null, null, document.URL);
+  	console.log(document.URL)
+  	window.addEventListener('popstate', ()=> { 
+  	history.pushState(null, null, document.URL); 
+  	});
+  </script>
+</html>

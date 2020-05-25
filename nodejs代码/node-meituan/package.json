@@ -1,0 +1,25 @@
+{
+  "name": "node-meituan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "baidu-aip-sdk": "^2.4.6",
+    "ip": "^1.1.5",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^8.0.8",
+    "mongoose": "^5.9.10",
+    "nodemon": "^2.0.3",
+    "request": "^2.88.2",
+    "silly-datetime": "^0.1.2",
+    "wx-js-utils": "^1.0.0"
+  }
+}
